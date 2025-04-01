@@ -7,6 +7,41 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+# 📌 Proyecto: Ejercicio Banco 🏦  
+
+Este es un proyecto basado en Laravel que simula operaciones bancarias básicas, como transferencias entre cuentas y manejo de usuarios.
+
+## 🚀 Tecnologías utilizadas  
+- Laravel 10  
+- PHP 8.1  
+- MySQL  
+- Bootstrap 5  
+
+## 📦 Instalación  
+1. Clonar el repositorio:  
+   ```sh
+   git clone https://github.com/tuusuario/EjercicioBanco.git
+2.Instalar dependencias:
+composer install
+
+3.Configurar archivo .env:
+DB_DATABASE=bank2
+
+4.Migrar la base de datos:
+php artisan migrate
+
+En el momento de migrar la base de datos nos propone crearla, ponemos yes y se creara en ese mismo instante.
+
+✨ Funcionalidades
+-Registro y autenticación de usuarios.
+
+-Cargar nuevos clientes y cuentas  y poder visualizarlos con sus respectivos listados.
+
+-Estadisticas de cuentas de clientes: Saldo maximo, saldo minimo, total cuentas por cliente.
+
+💻 Hecho con ❤️ por Victoria
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
